@@ -1,0 +1,12 @@
+version: 0.2
+        
+phases:
+  install:
+    commands:
+      - echo Install awscli
+      - pip install awscli --upgrade
+      - aws --version
+  build:
+    commands:
+      - echo Build Start `date`
+      - echo Build Finish `date`
