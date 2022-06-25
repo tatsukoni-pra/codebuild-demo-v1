@@ -9,4 +9,5 @@ phases:
   build:
     commands:
       - echo Build Start `date`
+      - sh exec.sh
       - echo Build Finish `date`
