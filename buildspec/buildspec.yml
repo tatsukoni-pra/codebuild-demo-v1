@@ -9,7 +9,7 @@ phases:
   build:
     commands:
       - echo Build Start `date`
-      - echo `pwd`
-      - echo `ls`
+      - echo ${DUMMY_ENV}
+      - echo $DUMMY_ENV
       - sh exec.sh
       - echo Build Finish `date`
